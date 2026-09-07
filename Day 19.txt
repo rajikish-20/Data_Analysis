@@ -1,0 +1,66 @@
+Day 19
+
+ER diagrams or ER models :
+ER stands for entity relationship, it represents graphical user interface.
+Entity :
+-> entity is nothing but a table.
+-> it is represented in rectangle.
+-> attributes are represented in ellipse
+-> diamond represents for establishing the relationship.
+-> line is used to connect attributes.
+Kind of entity:
+1. Tangible	(we can see and touch. ex : car, mobile, person)
+2. In Tangible  (we cannot see and touch. ex : bank account)
+Types of entity:
+1. Strong entity (The table which have primary key)
+2. Weak entity   (The table which don't have primary key)
+-> strong entity represented by single rectangle
+-> weak entity represented by double rectangle
+Attributes :
+-> attributes are nothing but columns
+-> we can have one or more attributes in an entity
+-> they are represented by ellipse
+Types of attributes:
+1. simple : 
+	which cannot be sub divided.
+2. composite
+	which can be sub divided.
+3. single valued
+	attribute contains single value(ex: name, dob).
+4. multi value
+	attribute which have more than one value(ex: phone number, e-mails).
+5. derived
+	attribute which depends on other attribute(ex: age depends on dob). represented by dotted ellipse.
+6. key
+     attribute which contains primary key. represented by ellipse underline.
+Relationships :
+Types:
+1. unary relationship
+2. binary relationship
+3. ternary relationship
+4. n relationships
+Types of relationship association :
+1. one - one
+2. one - many
+3. many - one
+4. many - many
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

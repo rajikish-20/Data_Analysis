@@ -1,0 +1,32 @@
+Day 18
+Stored Procedures:
+The procedure is a group of SQL statements inside the data base. It is used to store the group of SQL statements.
+The main purpose of stored procedures is used for code reusability.
+Syntax:
+delimiter //
+create procedure procedure_name()
+begin
+
+write SQL statements
+
+end//
+delimiter ;
+->how to call the procedure:
+call procedurename();
+->procedure status:
+show procedure status where db = 'data base name';
+=> example:
+delimiter //
+create procedure empDetails()
+begin
+select * from employee;
+end//
+delimiter;
+-> with parameter stored procedure:
+in(the procedure take the input), out(return the output), inout(take and return output).
+->delimiter //
+create procedure Emp_Details(in empId int)
+begin
+select * from employee where emp_id = empId;
+end //
+delimiter;
